@@ -1,0 +1,45 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Plant_watering_App.MainWindow"
+        Title="Plant_watering_App">
+  <Grid ColumnDefinitions="* * *" >
+    <StackPanel Grid.Column="0" VerticalAlignment="Bottom">
+      
+      <Image Source="C:/Users/gusta/source/repos/Plant watering App/Plant watering App/Content/medium-cactus.png" 
+             Height="140"
+             Width="230">
+      </Image>
+      
+      <Image Source="C:/Users/gusta/source/repos/Plant watering App/Plant watering App/Content/medium-pot.png" 
+             Height="120"
+             Width="170"></Image>
+      
+    </StackPanel>
+    
+    <StackPanel Grid.Column="1" VerticalAlignment="Bottom">
+      <Image Source="C:/Users/gusta/source/repos/Plant watering App/Plant watering App/Content/large-bonsai.png"
+             Height="290"
+             Width="250">
+      </Image>
+      <Image Source="C:/Users/gusta/source/repos/Plant watering App/Plant watering App/Content/large-pot.png" 
+             Height="150"
+             Width="170"></Image>
+      
+    </StackPanel>
+
+    <StackPanel Grid.Column="2" VerticalAlignment="Bottom">
+      <Image Source="C:/Users/gusta/source/repos/Plant watering App/Plant watering App/Content/small-bonsai.png"
+             Height="100"
+             Width="120"
+             >
+      </Image>
+      <Image Source="C:/Users/gusta/source/repos/Plant watering App/Plant watering App/Content/small-pot.png" 
+             Height="70"
+             Width="110"></Image>
+      
+    </StackPanel>
+  </Grid>
+</Window>
